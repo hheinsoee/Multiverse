@@ -30,9 +30,8 @@ h1{
 }
 
 #logo{
-    height:120px;
-    width:120px;
-    border-radius:50%;
+    height:300px;
+    width:300px;
 }
 #description{
     opacity: 0.7;

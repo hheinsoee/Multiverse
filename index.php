@@ -27,7 +27,7 @@ function theInfo(){
         align-items: center;
 		justify-content:center;
         min-height: 100vh;
-        background-color: rgb(0 14 106 / 35%);
+        background-color: <?=theInfo()->theme_color;?>;
         position: relative;
         backdrop-filter:blur(3px);
         ">
@@ -40,7 +40,7 @@ function theInfo(){
 				">
             <center>
                 <img src="<?=theInfo()->logo;?>" alt="" id="logo">
-                <h1 id="brandName"><?=theInfo()->name;?></h1>
+                <h1 style="margin-top: -70px;" id="brandName"><?=theInfo()->name;?></h1>
                 <div class="flex _ce">
                     <img src="media/Flag_of_Myanmar.svg" alt="" id="ico">
                     <div>&nbsp;မြန်မာစာတန်းထိုး အကြည် ဇတ်ကားများ</div>

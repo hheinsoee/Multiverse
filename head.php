@@ -34,5 +34,6 @@
 <meta name="facebook-domain-verification" content=""/>
 <meta property="fb:pages" content="<?=theInfo()->fb_page_id;?>" />
 
+<link rel="stylesheet" href="style.php">
 <script type="text/javascript" src="index.js"></script>
 <meta name="theme-color" content="#000000">

@@ -1,4 +1,6 @@
-<style>
+<?php
+header("Content-type: text/css", true);
+?>
 /* ============================ */
 @font-face {
     font-family: "Dragraces Demo";
@@ -54,4 +56,3 @@ h1{
 #icoBtn #ico{
     height:25px;
 }
-</style>

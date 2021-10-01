@@ -1,8 +1,16 @@
 /* ============================ */
+@font-face {
+    font-family: "Dragraces Demo";
+    src: url(/DragracesDemoRegular.ttf) format("embedded-opentype"), url(/DragracesDemoRegular.ttf) format("opentype")
+}
 body{
     margin:0;
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size:50pt;
+    line-height:25pt;
 }
 .flex{
     display: flex;
@@ -12,7 +20,11 @@ body{
     align-items: center;
 }
 
-
+#brandName{
+    font-family: "Dragraces Demo"!important;
+    font-weight: 100;
+    letter-spacing: 2pt;
+}
 
 #logo{
     height:120px;
@@ -23,7 +35,7 @@ body{
     opacity: 0.7;
 }
 #ico{
-    height:35px;
+    height: 29px;
     object-fit: contain;
 }
 #icoBtn {

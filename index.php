@@ -39,11 +39,12 @@ function theInfo(){
 				">
             <center>
                 <img src="<?=theInfo()->logo;?>" alt="" id="logo">
-                <h1><?=theInfo()->name;?></h1>
+                <h1 id="brandName"><?=theInfo()->name;?></h1>
                 <div class="flex _ce">
                     <img src="media/Flag_of_Myanmar.svg" alt="" id="ico">
                     <div>&nbsp;မြန်မာစာတန်းထိုး အကြည် ဇတ်ကားများ</div>
                 </div>
+                <hr/>
                 <p id="description"><?=theInfo()->description;?></p>
                 <div class="flex _ce">
                     <a id="icoBtn" href="https://fb.com/<?=theInfo()->fb_page_id;?>" target="_blank">

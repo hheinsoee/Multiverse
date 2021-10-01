@@ -1,5 +1,9 @@
 <?php
 header("Content-type: text/css", true);
+function theInfo(){
+    $json = file_get_contents('info.json');
+    $obj = json_decode($json);
+    return  $obj;
 ?>
 /* ============================ */
 @font-face {

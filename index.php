@@ -8,7 +8,8 @@ function theInfo(){
 <!DOCTYPE html>
 <html lang="my">
 <head>
-    <?php include_once "head.php";?>    
+    <?php include_once "head.php";?>
+    <?php include_once "style.php";?>    
 </head>
 <body>
     <video autoplay muted loop download="false" id="myVideo"

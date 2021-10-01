@@ -1,3 +1,4 @@
+<style>
 /* ============================ */
 @font-face {
     font-family: "Dragraces Demo";
@@ -7,6 +8,8 @@ body{
     margin:0;
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: <?=theInfo()->bg_color;?>;
+    color: <?=theInfo()->text_color;?>;
 }
 h1{
     font-size:50pt;
@@ -39,8 +42,8 @@ h1{
     object-fit: contain;
 }
 #icoBtn {
-    background-color: rgb(100 100 100 /60%);
-    color:#fff;
+    background-color:  <?=theInfo()->theme_color;?>;
+    color:<?=theInfo()->text_color;?>;
     text-decoration: none;
     padding:5px;
     margin:10px;
@@ -52,3 +55,4 @@ h1{
 #icoBtn #ico{
     height:25px;
 }
+</style>

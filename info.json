@@ -5,8 +5,8 @@
     "logo": "media/multiverse.jpg",
     "ico": "media/multiverse.jpg",
     "ogimage":"photo.jpg",
-    "theme_color": "#000000",
-    "bg_color": "#000000",
+    "theme_color": "rgb(100 100 100 /60%)",
+    "bg_color": "rgb(100 100 100 /60%)",
     "text_color": "#fff",
     "fb_page_id":"multiverseofficialapp",
     "app_download_link":"https://f002.backblazeb2.com/file/Multiverse1/PhoneTV+(3).apk"

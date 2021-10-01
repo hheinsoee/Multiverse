@@ -2,7 +2,7 @@
 /* ============================ */
 @font-face {
     font-family: "Dragraces Demo";
-    src: url(/DragracesDemoRegular.ttf) format("embedded-opentype"), url(/DragracesDemoRegular.ttf) format("opentype")
+    src: url(DragracesDemoRegular.ttf) format("embedded-opentype"), url(DragracesDemoRegular.ttf) format("opentype")
 }
 body{
     margin:0;
